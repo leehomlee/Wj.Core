@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Autofac", "Wj.B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Castle", "Wj.Bizlogic.Castle\Wj.Bizlogic.Castle.csproj", "{D2BBF293-5047-45AA-9109-BCE22D041D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Validation.Abstractions", "Wj.Bizlogic.Validation.Abstractions\Wj.Bizlogic.Validation.Abstractions.csproj", "{1B79536E-0DF6-4DBD-89AA-15D40B7062AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Validation.Abstractions", "Wj.Bizlogic.Validation.Abstractions\Wj.Bizlogic.Validation.Abstractions.csproj", "{1B79536E-0DF6-4DBD-89AA-15D40B7062AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Validation", "Wj.Bizlogic.Validation\Wj.Bizlogic.Validation.csproj", "{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{1B79536E-0DF6-4DBD-89AA-15D40B7062AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B79536E-0DF6-4DBD-89AA-15D40B7062AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B79536E-0DF6-4DBD-89AA-15D40B7062AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
