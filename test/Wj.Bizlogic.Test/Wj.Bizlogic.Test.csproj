@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+	<PackageReference Include="Serilog.Extensions.Hosting" />
+	<PackageReference Include="Serilog.Extensions.Logging" />
+	<PackageReference Include="Serilog.Sinks.Async" />
+	<PackageReference Include="Serilog.Sinks.Console" />
+	<PackageReference Include="Serilog.Sinks.File" />
+	  <PackageReference Include="Microsoft.Extensions.Localization" />
+	  <PackageReference Include="Nito.AsyncEx.Coordination" />
+	  <PackageReference Include="Nito.AsyncEx.Context" />
+	  <PackageReference Include="Autofac" />
+	  <PackageReference Include="Autofac.Extensions.DependencyInjection" />
+	  <PackageReference Include="Autofac.Extras.DynamicProxy" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Wj.Bizlogic.Core">
+		<HintPath>..\..\framework\Wj.Bizlogic.Core\bin\Debug\net8.0\Wj.Bizlogic.Core.dll</HintPath>
+    </Reference>
+	  <Reference Include="Wj.Bizlogic.Autofac">
+		  <HintPath>..\..\framework\Wj.Bizlogic.Autofac\bin\Debug\net8.0\Wj.Bizlogic.Autofac.dll</HintPath>
+	  </Reference>
+  </ItemGroup>
+
+</Project>

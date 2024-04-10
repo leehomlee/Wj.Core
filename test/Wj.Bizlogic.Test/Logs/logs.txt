@@ -1,0 +1,79 @@
+2024-01-15 09:48:14.810 +08:00 [INF] Starting console host.
+2024-01-15 09:48:14.936 +08:00 [INF] Loaded App modules:
+2024-01-15 09:48:14.936 +08:00 [INF] - Wj.Bizlogic.Test.MyConsoleAppModule
+2024-01-15 09:48:14.940 +08:00 [INF] Initialized all App modules.
+2024-01-15 09:48:14.948 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-15 09:48:14.951 +08:00 [INF] Hosting environment: Production
+2024-01-15 09:48:14.951 +08:00 [INF] Content root path: E:\ContIn\WjCore\test\Wj.Bizlogic.Test
+2024-01-15 09:48:41.562 +08:00 [INF] Application is shutting down...
+2024-01-15 09:48:41.582 +08:00 [FTL] An error occurred stopping the application
+System.AggregateException: One or more errors occurred. (Could not load file or assembly 'Nito.AsyncEx.Context, Version=5.1.2.0, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。)
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'Nito.AsyncEx.Context, Version=5.1.2.0, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'Nito.AsyncEx.Context, Version=5.1.2.0, Culture=neutral, PublicKeyToken=null'
+   at Wj.Bizlogic.Threading.AsyncHelper.RunSync(Func`1 action)
+   at Microsoft.Extensions.Hosting.AppHostExtensions.<>c__DisplayClass0_0.<InitializeAsync>b__0() in E:\ContIn\WjCore\framework\Wj.Bizlogic.Core\Extensions\AppHostExtensions.cs:line 15
+   at System.Threading.CancellationTokenSource.Invoke(Delegate d, Object state, CancellationTokenSource source)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   --- End of inner exception stack trace ---
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   at Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.ExecuteHandlers(CancellationTokenSource cancel)
+   at Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication()
+2024-01-15 10:17:40.382 +08:00 [INF] Starting console host.
+2024-01-15 10:17:41.497 +08:00 [INF] Loaded App modules:
+2024-01-15 10:17:41.498 +08:00 [INF] - Wj.Bizlogic.Test.MyConsoleAppModule
+2024-01-15 10:17:41.502 +08:00 [INF] Initialized all App modules.
+2024-01-15 10:17:41.510 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-15 10:17:41.512 +08:00 [INF] Hosting environment: Production
+2024-01-15 10:17:41.512 +08:00 [INF] Content root path: E:\ContIn\WjCore\test\Wj.Bizlogic.Test
+2024-01-15 10:17:45.977 +08:00 [INF] Application is shutting down...
+2024-01-18 16:26:13.073 +08:00 [INF] Starting console host.
+2024-01-18 16:26:15.387 +08:00 [INF] Loaded App modules:
+2024-01-18 16:26:15.388 +08:00 [INF] - Wj.Bizlogic.Test.MyConsoleAppModule
+2024-01-18 16:26:15.395 +08:00 [INF] Initialized all App modules.
+2024-01-18 16:26:15.463 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 16:26:15.471 +08:00 [INF] Hosting environment: Production
+2024-01-18 16:26:15.471 +08:00 [INF] Content root path: E:\ContIn\WjCore\test\Wj.Bizlogic.Test
+2024-01-18 16:26:22.734 +08:00 [INF] Application is shutting down...
+2024-01-18 16:28:05.715 +08:00 [INF] Starting console host.
+2024-01-18 16:28:05.790 +08:00 [INF] MyConsoleAppModule.ConfigureServices
+2024-01-18 16:28:05.877 +08:00 [INF] Loaded App modules:
+2024-01-18 16:28:05.878 +08:00 [INF] - Wj.Bizlogic.Test.MyConsoleAppModule
+2024-01-18 16:28:05.883 +08:00 [INF] Initialized all App modules.
+2024-01-18 16:28:05.898 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 16:28:05.901 +08:00 [INF] Hosting environment: Production
+2024-01-18 16:28:05.901 +08:00 [INF] Content root path: E:\ContIn\WjCore\test\Wj.Bizlogic.Test
+2024-01-18 16:28:20.108 +08:00 [INF] Application is shutting down...
+2024-01-18 16:29:05.256 +08:00 [INF] Starting console host.
+2024-01-18 16:29:05.333 +08:00 [INF] MyConsoleAppModule 注册服务 ConfigureServices
+2024-01-18 16:29:05.425 +08:00 [INF] Loaded App modules:
+2024-01-18 16:29:05.426 +08:00 [INF] - Wj.Bizlogic.Test.MyConsoleAppModule
+2024-01-18 16:29:05.431 +08:00 [INF] Initialized all App modules.
+2024-01-18 16:29:05.447 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 16:29:05.450 +08:00 [INF] Hosting environment: Production
+2024-01-18 16:29:05.450 +08:00 [INF] Content root path: E:\ContIn\WjCore\test\Wj.Bizlogic.Test
+2024-01-18 16:29:09.215 +08:00 [INF] Application is shutting down...
+2024-01-18 16:30:05.001 +08:00 [INF] Starting console host.
+2024-01-18 16:30:05.080 +08:00 [INF] MyConsoleAppModule 注册服务 ConfigureServices
+2024-01-18 16:30:05.164 +08:00 [INF] Loaded App modules:
+2024-01-18 16:30:05.164 +08:00 [INF] - Wj.Bizlogic.Test.MyConsoleAppModule
+2024-01-18 16:30:05.170 +08:00 [INF] Initialized all App modules.
+2024-01-18 16:30:05.176 +08:00 [INF] 2222
+2024-01-18 16:30:05.184 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 16:30:05.187 +08:00 [INF] Hosting environment: Production
+2024-01-18 16:30:05.187 +08:00 [INF] Content root path: E:\ContIn\WjCore\test\Wj.Bizlogic.Test
+2024-01-18 16:30:10.729 +08:00 [INF] Application is shutting down...
+2024-01-18 16:41:13.553 +08:00 [INF] Starting console host.
+2024-01-18 16:41:13.643 +08:00 [INF] MyConsoleAppModule 注册服务 ConfigureServices
+2024-01-18 16:41:13.749 +08:00 [INF] Loaded App modules:
+2024-01-18 16:41:13.750 +08:00 [INF] - Wj.Bizlogic.Test.MyConsoleAppModule
+2024-01-18 16:41:13.757 +08:00 [INF] Initialized all App modules.
+2024-01-18 16:41:13.763 +08:00 [INF] 2222
+2024-01-18 16:41:13.773 +08:00 [INF] Hello World!
+2024-01-18 16:41:13.773 +08:00 [INF] MyOptions:Value1:10
+2024-01-18 16:41:13.773 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 16:41:13.776 +08:00 [INF] Hosting environment: Production
+2024-01-18 16:41:13.776 +08:00 [INF] Content root path: E:\ContIn\WjCore\test\Wj.Bizlogic.Test
+2024-01-18 17:31:05.555 +08:00 [INF] Application is shutting down...
