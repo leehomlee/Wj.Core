@@ -5,6 +5,9 @@ using System;
 
 namespace Wj.Bizlogic.Autofac
 {
+    /// <summary>
+    /// A factory for creating a <see cref="T:Autofac.ContainerBuilder" /> and an <see cref="T:System.IServiceProvider" />.
+    /// </summary>
     public class AutofacServiceProviderFactory : IServiceProviderFactory<ContainerBuilder>
     {
         private readonly ContainerBuilder _builder;
