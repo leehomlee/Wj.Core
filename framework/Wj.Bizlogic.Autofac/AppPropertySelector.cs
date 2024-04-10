@@ -6,9 +6,9 @@ using Wj.Bizlogic.DependencyInjection;
 
 namespace Wj.Bizlogic.Autofac
 {
-    public class BizPropertySelector : DefaultPropertySelector
+    public class AppPropertySelector : DefaultPropertySelector
     {
-        public BizPropertySelector(bool preserveSetValues) : base(preserveSetValues)
+        public AppPropertySelector(bool preserveSetValues) : base(preserveSetValues)
         {
         }
 

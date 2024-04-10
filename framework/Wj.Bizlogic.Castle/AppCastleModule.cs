@@ -4,7 +4,7 @@ using Wj.Bizlogic.Modularity;
 
 namespace Wj.Bizlogic.Castle
 {
-    public class BizCastleModule : AppModule
+    public class AppCastleModule : AppModule
     {
         public override void ConfigureServices(ServiceConfigurationContext context)
         {

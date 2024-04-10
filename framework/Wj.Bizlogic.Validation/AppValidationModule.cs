@@ -3,8 +3,8 @@ using Wj.Bizlogic.Modularity;
 
 namespace Wj.Bizlogic.Validation
 {
-    [DependsOn(typeof(BizValidationAbstractionsModule))]
-    public class BizValidationModule : AppModule
+    [DependsOn(typeof(AppValidationAbstractionsModule))]
+    public class AppValidationModule : AppModule
     {
         public override void PreConfigureServices(ServiceConfigurationContext context)
         {

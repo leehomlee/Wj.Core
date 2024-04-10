@@ -2,7 +2,7 @@
 
 namespace Wj.Bizlogic.Validation
 {
-    public class BizValidationAbstractionsModule : AppModule
+    public class AppValidationAbstractionsModule : AppModule
     {
 
     }

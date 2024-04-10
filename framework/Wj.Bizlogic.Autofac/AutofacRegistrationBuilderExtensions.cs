@@ -95,7 +95,7 @@ namespace Autofac.Builder
             if (moduleContainer.Modules.Any(m => m.AllAssemblies.Contains(implementationType.Assembly)) &&
                 implementationType.GetCustomAttributes(typeof(DisablePropertyInjectionAttribute), true).IsNullOrEmpty())
             {
-                registrationBuilder = registrationBuilder.PropertiesAutowired(new BizPropertySelector(false));
+                registrationBuilder = registrationBuilder.PropertiesAutowired(new AppPropertySelector(false));
             }
 
             return registrationBuilder;
