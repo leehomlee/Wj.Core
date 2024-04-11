@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Castle", "Wj.Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Validation.Abstractions", "Wj.Bizlogic.Validation.Abstractions\Wj.Bizlogic.Validation.Abstractions.csproj", "{1B79536E-0DF6-4DBD-89AA-15D40B7062AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Validation", "Wj.Bizlogic.Validation\Wj.Bizlogic.Validation.csproj", "{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Validation", "Wj.Bizlogic.Validation\Wj.Bizlogic.Validation.csproj", "{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Caching", "Wj.Bizlogic.Caching\Wj.Bizlogic.Caching.csproj", "{AB7DD7E1-B0D7-459A-9EC5-BB2AC6469CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Json.Abstractions", "Wj.Bizlogic.Json.Abstractions\Wj.Bizlogic.Json.Abstractions.csproj", "{63CDC931-0163-4A7B-9592-6C11072D4EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Json.SystemTextJson", "Wj.Bizlogic.Json.SystemTextJson\Wj.Bizlogic.Json.SystemTextJson.csproj", "{8E086239-A197-450D-92D8-D50BC256C89D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +53,18 @@ Global
 		{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7DD7E1-B0D7-459A-9EC5-BB2AC6469CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7DD7E1-B0D7-459A-9EC5-BB2AC6469CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7DD7E1-B0D7-459A-9EC5-BB2AC6469CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7DD7E1-B0D7-459A-9EC5-BB2AC6469CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63CDC931-0163-4A7B-9592-6C11072D4EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CDC931-0163-4A7B-9592-6C11072D4EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CDC931-0163-4A7B-9592-6C11072D4EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CDC931-0163-4A7B-9592-6C11072D4EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E086239-A197-450D-92D8-D50BC256C89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E086239-A197-450D-92D8-D50BC256C89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E086239-A197-450D-92D8-D50BC256C89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E086239-A197-450D-92D8-D50BC256C89D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
