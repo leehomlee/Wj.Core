@@ -52,7 +52,7 @@ namespace Microsoft.Extensions.DependencyInjection
         }
 
         [NotNull]
-        public static IAppHostEnvironment GetAbpHostEnvironment(this IServiceCollection services)
+        public static IAppHostEnvironment GetAppHostEnvironment(this IServiceCollection services)
         {
             return services.GetSingletonInstance<IAppHostEnvironment>();
         }

@@ -51,7 +51,7 @@ namespace Wj.Bizlogic.Modularity
 
         public override string ToString()
         {
-            return $"[AbpModuleDescriptor {Type.FullName}]";
+            return $"[AppModuleDescriptor {Type.FullName}]";
         }
     }
 }

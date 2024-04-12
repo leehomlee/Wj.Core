@@ -9,6 +9,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="DistributedCache.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Wj.Bizlogic.Json\Wj.Bizlogic.Json.csproj" />
+		<ProjectReference Include="..\Wj.Bizlogic.Serialization\Wj.Bizlogic.Serialization.csproj" />
+		<ProjectReference Include="..\Wj.Bizlogic.Threading\Wj.Bizlogic.Threading.csproj" />
 		<PackageReference Include="Microsoft.Extensions.Caching.Memory" />
 	</ItemGroup>
 

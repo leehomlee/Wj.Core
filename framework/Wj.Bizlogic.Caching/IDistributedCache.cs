@@ -1,5 +1,5 @@
-﻿using Microsoft.Extensions.Caching.Distributed;
-using System.Diagnostics.CodeAnalysis;
+﻿using JetBrains.Annotations;
+using Microsoft.Extensions.Caching.Distributed;
 
 namespace Wj.Bizlogic.Caching
 {

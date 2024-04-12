@@ -21,11 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Validation.Abst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Validation", "Wj.Bizlogic.Validation\Wj.Bizlogic.Validation.csproj", "{3A37AADF-3F6D-4D92-90BA-5D89B6C16B7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Caching", "Wj.Bizlogic.Caching\Wj.Bizlogic.Caching.csproj", "{AB7DD7E1-B0D7-459A-9EC5-BB2AC6469CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Caching", "Wj.Bizlogic.Caching\Wj.Bizlogic.Caching.csproj", "{AB7DD7E1-B0D7-459A-9EC5-BB2AC6469CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Json.Abstractions", "Wj.Bizlogic.Json.Abstractions\Wj.Bizlogic.Json.Abstractions.csproj", "{63CDC931-0163-4A7B-9592-6C11072D4EC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Json.Abstractions", "Wj.Bizlogic.Json.Abstractions\Wj.Bizlogic.Json.Abstractions.csproj", "{63CDC931-0163-4A7B-9592-6C11072D4EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Json.SystemTextJson", "Wj.Bizlogic.Json.SystemTextJson\Wj.Bizlogic.Json.SystemTextJson.csproj", "{8E086239-A197-450D-92D8-D50BC256C89D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wj.Bizlogic.Json.SystemTextJson", "Wj.Bizlogic.Json.SystemTextJson\Wj.Bizlogic.Json.SystemTextJson.csproj", "{8E086239-A197-450D-92D8-D50BC256C89D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Json", "Wj.Bizlogic.Json\Wj.Bizlogic.Json.csproj", "{2DBC3A4A-C232-45B6-8EE8-2FFCED36A078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Serialization", "Wj.Bizlogic.Serialization\Wj.Bizlogic.Serialization.csproj", "{F57E9697-1D08-4323-9DBA-A68B8F2FE257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Threading", "Wj.Bizlogic.Threading\Wj.Bizlogic.Threading.csproj", "{B640B055-C4DC-402C-96DE-524806E22F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wj.Bizlogic.Uow", "Wj.Bizlogic.Uow\Wj.Bizlogic.Uow.csproj", "{8D6B8945-2054-4B65-8FEA-5764EE1D7CA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +73,22 @@ Global
 		{8E086239-A197-450D-92D8-D50BC256C89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E086239-A197-450D-92D8-D50BC256C89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E086239-A197-450D-92D8-D50BC256C89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBC3A4A-C232-45B6-8EE8-2FFCED36A078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBC3A4A-C232-45B6-8EE8-2FFCED36A078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBC3A4A-C232-45B6-8EE8-2FFCED36A078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBC3A4A-C232-45B6-8EE8-2FFCED36A078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57E9697-1D08-4323-9DBA-A68B8F2FE257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57E9697-1D08-4323-9DBA-A68B8F2FE257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57E9697-1D08-4323-9DBA-A68B8F2FE257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57E9697-1D08-4323-9DBA-A68B8F2FE257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B640B055-C4DC-402C-96DE-524806E22F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B640B055-C4DC-402C-96DE-524806E22F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B640B055-C4DC-402C-96DE-524806E22F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B640B055-C4DC-402C-96DE-524806E22F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6B8945-2054-4B65-8FEA-5764EE1D7CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6B8945-2054-4B65-8FEA-5764EE1D7CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6B8945-2054-4B65-8FEA-5764EE1D7CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6B8945-2054-4B65-8FEA-5764EE1D7CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

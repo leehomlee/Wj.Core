@@ -32,12 +32,12 @@ namespace Microsoft.Extensions.DependencyInjection
             return actionList;
         }
 
-        public static void DisableAbpClassInterceptors(this IServiceCollection services)
+        public static void DisableAppClassInterceptors(this IServiceCollection services)
         {
             GetOrCreateRegistrationActionList(services).IsClassInterceptorsDisabled = true;
         }
 
-        public static bool IsAbpClassInterceptorsDisabled(this IServiceCollection services)
+        public static bool IsAppClassInterceptorsDisabled(this IServiceCollection services)
         {
             return GetOrCreateRegistrationActionList(services).IsClassInterceptorsDisabled;
         }

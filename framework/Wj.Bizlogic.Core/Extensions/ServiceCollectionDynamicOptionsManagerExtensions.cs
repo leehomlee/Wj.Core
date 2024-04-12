@@ -6,7 +6,7 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     public static class ServiceCollectionDynamicOptionsManagerExtensions
     {
-        public static IServiceCollection AddAbpDynamicOptions<TOptions, TManager>(this IServiceCollection services)
+        public static IServiceCollection AddAppDynamicOptions<TOptions, TManager>(this IServiceCollection services)
             where TOptions : class
             where TManager : AppDynamicOptionsManager<TOptions>
         {

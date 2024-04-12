@@ -181,9 +181,9 @@ namespace Wj.Bizlogic
             //ConfigureServices
             foreach (var module in Modules)
             {
-                if (module.Instance is AppModule abpModule)
+                if (module.Instance is AppModule appModule)
                 {
-                    if (!abpModule.SkipAutoServiceRegistration)
+                    if (!appModule.SkipAutoServiceRegistration)
                     {
                         foreach (var assembly in module.AllAssemblies)
                         {
@@ -221,9 +221,9 @@ namespace Wj.Bizlogic
 
             foreach (var module in Modules)
             {
-                if (module.Instance is AppModule abpModule)
+                if (module.Instance is AppModule appModule)
                 {
-                    abpModule.ServiceConfigurationContext = null!;
+                    appModule.ServiceConfigurationContext = null!;
                 }
             }
 
@@ -236,7 +236,7 @@ namespace Wj.Bizlogic
         {
             if (_configuredServices)
             {
-                throw new AppInitializationException("Services have already been configured! If you call ConfigureServicesAsync method, you must have set AbpApplicationCreationOptions.SkipConfigureServices to true before.");
+                throw new AppInitializationException("Services have already been configured! If you call ConfigureServicesAsync method, you must have set AppApplicationCreationOptions.SkipConfigureServices to true before.");
             }
         }
 
@@ -250,9 +250,9 @@ namespace Wj.Bizlogic
 
             foreach (var module in Modules)
             {
-                if (module.Instance is AppModule abpModule)
+                if (module.Instance is AppModule appModule)
                 {
-                    abpModule.ServiceConfigurationContext = context;
+                    appModule.ServiceConfigurationContext = context;
                 }
             }
 
@@ -274,9 +274,9 @@ namespace Wj.Bizlogic
             //ConfigureServices
             foreach (var module in Modules)
             {
-                if (module.Instance is AppModule abpModule)
+                if (module.Instance is AppModule appModule)
                 {
-                    if (!abpModule.SkipAutoServiceRegistration)
+                    if (!appModule.SkipAutoServiceRegistration)
                     {
                         foreach (var assembly in module.AllAssemblies)
                         {
@@ -314,9 +314,9 @@ namespace Wj.Bizlogic
 
             foreach (var module in Modules)
             {
-                if (module.Instance is AppModule abpModule)
+                if (module.Instance is AppModule appModule)
                 {
-                    abpModule.ServiceConfigurationContext = null!;
+                    appModule.ServiceConfigurationContext = null!;
                 }
             }
 
@@ -353,10 +353,10 @@ namespace Wj.Bizlogic
 
         private static void TryToSetEnvironment(IServiceCollection services)
         {
-            var abpHostEnvironment = services.GetSingletonInstance<IAppHostEnvironment>();
-            if (abpHostEnvironment.EnvironmentName.IsNullOrWhiteSpace())
+            var appHostEnvironment = services.GetSingletonInstance<IAppHostEnvironment>();
+            if (appHostEnvironment.EnvironmentName.IsNullOrWhiteSpace())
             {
-                abpHostEnvironment.EnvironmentName = Environments.Production;
+                appHostEnvironment.EnvironmentName = Environments.Production;
             }
         }
     }

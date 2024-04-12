@@ -18,11 +18,11 @@ namespace Wj.Bizlogic.Internal
         }
 
         internal static void AddCoreAppServices(this IServiceCollection services,
-            IAppApplication abpApplication,
+            IAppApplication appApplication,
             AppApplicationCreationOptions applicationCreationOptions)
         {
             var moduleLoader = new ModuleLoader();
-            var assemblyFinder = new AssemblyFinder(abpApplication);
+            var assemblyFinder = new AssemblyFinder(appApplication);
             var typeFinder = new TypeFinder(assemblyFinder);
 
             if (!services.IsAdded<IConfiguration>())

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Wj.Bizlogic.DependencyInjection;
 
 namespace Wj.Bizlogic.Caching
 {

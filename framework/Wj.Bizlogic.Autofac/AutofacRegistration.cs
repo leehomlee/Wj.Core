@@ -192,7 +192,7 @@ namespace Autofac.Extensions.DependencyInjection
                     })
                         .ConfigureLifecycle(descriptor.Lifetime, lifetimeScopeTagForSingletons)
                         .CreateRegistration();
-                    //TODO: ConfigureAbpConventions ?
+                    //TODO: ConfigureAppConventions ?
 
                     builder.RegisterComponent(registration);
                 }
